@@ -29,6 +29,14 @@ Feature: Login en la página web de saucedemo
     When Inicia sesión con las credenciales "error_user" y ""
     Then Debe ver el mensaje de error "Required" debajo de la contrasena
 
+  @AddToCart
+  Scenario: Agregar un producto al carrito luego de iniciar sesión correctamente
+
+    Given "User" abre la página web
+    When Inicia sesión con las credenciales "standard_user" y "secret_sauce"
+    And agrega un producto al carrito
+    Then el carrito debe mostrar "1" producto(s)
+
 
 
 #📄 Documentación Archivo: LoginPage.feature
