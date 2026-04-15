@@ -1,6 +1,6 @@
-# 🧪 Serenity Screenplay - SauceDemo Automation
+#Serenity Screenplay - SauceDemo Automation
 
-## 📌 Descripción
+## Descripción
 
 Este proyecto implementa un conjunto de pruebas automatizadas tipo *Smoke Test* sobre el flujo de inicio de sesión de la aplicación web *SauceDemo*.
 
@@ -8,7 +8,7 @@ Está desarrollado utilizando el patrón *Screenplay* con *Serenity BDD + Cucumb
 
 ---
 
-## 🎯 Objetivo
+## Objetivo
 
 Validar el correcto funcionamiento del módulo de autenticación mediante escenarios clave:
 
@@ -18,7 +18,7 @@ Validar el correcto funcionamiento del módulo de autenticación mediante escena
 
 ---
 
-## 🧰 Tecnologías utilizadas
+## Tecnologías utilizadas
 
 * Java 11
 * Serenity BDD
@@ -29,7 +29,7 @@ Validar el correcto funcionamiento del módulo de autenticación mediante escena
 
 ---
 
-## 🏗️ Arquitectura
+## Arquitectura
 
 El proyecto sigue el patrón *Screenplay*, el cual se basa en:
 
@@ -41,7 +41,7 @@ El proyecto sigue el patrón *Screenplay*, el cual se basa en:
 
 ---
 
-## 📂 Estructura del proyecto
+## Estructura del proyecto
 
 
 src/test/java/com/demo
@@ -57,28 +57,28 @@ src/test/resources
 
 ---
 
-## 🧪 Escenarios implementados
+## Escenarios implementados
 
-### ✅ 1. Login exitoso
+### 1. Login exitoso
 
 Valida que un usuario pueda iniciar sesión correctamente con credenciales válidas.
 
-### ❌ 2. Login sin usuario
+### 2. Login sin usuario
 
 Valida que el sistema muestre un mensaje de error cuando el campo usuario está vacío.
 
-### ❌ 3. Login con contraseña incorrecta
+### 3. Login con contraseña incorrecta
 
 Valida que el sistema muestre un mensaje de error cuando el campo contraseña es incorrecto.
 
 
-### ❌ 4. Login sin contraseña
+### 4. Login sin contraseña
 
 Valida que el sistema muestre un mensaje de error cuando el campo contraseña está vacío.
 
 ---
 
-## ▶️ Ejecución del proyecto
+## Ejecución del proyecto
 
 1. Clonar o descargar el repositorio
 2. Abrir en IntelliJ IDEA como proyecto Maven
@@ -90,7 +90,7 @@ mvn clean verify
 
 ---
 
-## 📊 Reportes
+## Reportes
 
 Serenity genera automáticamente un reporte detallado en:
 
@@ -107,7 +107,7 @@ Incluye:
 
 ---
 
-## 💡 Buenas prácticas implementadas
+## Buenas prácticas implementadas
 
 * Uso del patrón Screenplay
 * Separación de responsabilidades
@@ -117,7 +117,7 @@ Incluye:
 
 ---
 
-## 🚀 Posibles mejoras
+## Posibles mejoras
 
 * Implementar Data Driven Testing
 * Integración con CI/CD (Azure DevOps / Jenkins)
@@ -127,7 +127,7 @@ Incluye:
 
 ---
 
-## 👨‍💻 Autor
+## Autor
 
 Santiago Ramos
 QA 
